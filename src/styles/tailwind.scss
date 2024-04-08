@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply bg-white text-black text-base;
+    font-family: PingFang SC;
+  }
+
+  view,
+  scroll-view {
+    @apply box-border;
+    font-family: PingFang SC;
+  }
+
+  input {
+    @apply text-black;
+  }
+
+  scroll-view {
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
