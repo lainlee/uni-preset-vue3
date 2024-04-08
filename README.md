@@ -17,7 +17,9 @@ The preset packages is:
 
 # Usage
 
-`vue create -p lainlee/uni-preset-vue3`
+```
+npx degit lainlee/uni-preset-vue3 my-vue3-project
+```
 
 # Special Thanks
 
